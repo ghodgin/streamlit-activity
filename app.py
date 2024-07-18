@@ -27,3 +27,8 @@ if current_prediction == 0:
     st.markdown('### 🍄🍄🍄 Mushroom is not poisonous')
 else: 
     st.markdown('### 💀 Mushroom is poisonous')
+
+agree = st.checkbox('I agree')
+
+if agree: 
+    st.write('Awesome!')
